@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(154, 143, 211);
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+marquee {
+    font-size: 20px;
+    background-color: rgb(4, 4, 4);
+    color: rgb(255, 255, 255);
+
+}
+
+.have {
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    margin-left: 150px;
+    color: white;
+    padding-top: 8px;
+}
+
+.have1 {
+    background-color: black;
+    margin-top: -5px;
+}
+
+.navtop {
+    background-color: green;
+
+    margin-left: 835px;
+
+
+}
+
+.green-div {
+    background-color: rgba(77, 78, 93, 0.822);
+    color: #fff;
+    border: solid white;
+    margin-left: 900px;
+    height: 45px;
+    padding: 0 30px;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 15px;
+
+
+
+    clip-path: polygon(40px 0,
+            100% 0,
+            100% 100%,
+            0 100%,
+            0 50px);
+    margin-bottom: 25px;
+    margin-top: -30px;
+    position: relative;
+    z-index: 999;
+    color: black;
+
+}
+
+.navtop1 {
+    text-decoration: none;
+    margin-left: 150px;
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+
+}
+
+.navtop2 {
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.Navbar {
+    background-color: rgb(6, 6, 6);
+    height: 100px;
+    margin-top: -50px;
+    display: flex;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+
+
+}
+
+.Navbar .navbar1 {
+    display: flex;
+
+    font-size: 19px;
+    margin-top: 40px;
+    list-style-type: none;
+    margin-left: 5px;
+
+}
+
+
+
+.Navbar .navbar1 .home1 {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 20px;
+    position: relative;
+    margin-left: 50px;
+    color: rgb(249, 246, 246);
+
+}
+
+.Navbar .navbar1 .home1:hover {
+
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    box-sizing: border-box;
+
+}
+
+
+
+
+.Navbar .navbar1 .About1 {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+
+.Navbar .navbar1 .About1:hover {
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: trasnform 0.5s ease;
+
+}
+
+
+.Navbar .navbar1 .pop {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+}
+
+.Navbar .navbar1 .pop:hover {
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: trasnform 0.5s ease;
+
+}
+
+.Navbar .navbar1 .indu {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+}
+
+/* Industrial Training dropdown */
+.dropdown {
+    position: relative;
+}
+
+/* Dropdown box */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 220px;
+    display: none;
+    z-index: 999;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f2f2f2;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+.Navbar .navbar1 .indu:hover {
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: trasnform 0.5s ease;
+
+}
+
+.Navbar .navbar1 .Feedback {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+}
+
+.Navbar .navbar1 .Feedback:hover {
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: trasnform 0.5s ease;
+
+}
+
+.Navbar .navbar1 .gallery {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+}
+
+.Navbar .navbar1 .gallery:hover {
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: trasnform 0.5s ease;
+
+}
+
+
+
+.Navbar .navbar1 .Enquiry {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+}
+
+.Navbar .navbar1 .Enquiry:hover {
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: trasnform 0.5s ease;
+
+}
+
+.Navbar .navbar1 .contact {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+}
+
+.Navbar .navbar1 .contact:hover {
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: trasnform 0.5s ease;
+
+}
+
+.Navbar .navbar1 .Search {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 30px;
+
+}
+
+.enquiry-section {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #eef2f7, #dfe7f2);
+    font-family: Arial, sans-serif;
+}
+
+.enquiry-container {
+    max-width: 1000px;
+    margin: auto;
+    background: #e8e6e6;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.enquiry-container h2 {
+    text-align: center;
+    color: #1f2d3d;
+    margin-bottom: 8px;
+}
+
+.enquiry-container p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.enquiry-form .form-group {
+    margin-bottom: 18px;
+}
+
+.enquiry-form input,
+.enquiry-form textarea,
+.enquiry-form select {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.enquiry-form input:focus,
+.enquiry-form textarea:focus,
+.enquiry-form select:focus {
+    border-color: #007bff;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 14px;
+    background: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: #0056b3;
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/project 1/CSS/gallary.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <marquee behavior="" direction="">Welcome to Apple Tree Infotech: call for any Course Enquiry: <span
+            style="color: red;"> 7503962162 </span></marquee>
+    <div class="have1">
+
+        <h1 class="have"></h1>
+
+    </div>
+    <!-- top navbar yha tak -->
+
+    <div class="green-div" style="position: sticky;">
+        <a href="#" class="navtop1">Search Current Jobs &nbsp;|</a>
+        <a href="#" class="navtop2"> 👨‍🚀 My Account</a>
+    </div>
+    <!--second navbar khtm-->
+    <div class="Navbar">
+        <img src="/DEMO/project 1/Images/logo9.png" alt=""
+            style="margin-left: 0px;height: 40px;margin-top: 40px;transform: translateY(-10px)translateX(10px);">
+        <ul class="navbar1">
+            <li class="Home"><a class="home1" href="/project 1/HTML/Fun.html">Home</a></li>
+            <li class="About"><a class="About1" href="/project 1/HTML/About.html">About</a></li>
+            <li class="Pop"><a class="pop" href="#">Popular Courses</a></li>
+            <li class="Indu dropdown"><a class="indu" href="#">Industrial Training</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Java Full Stack</a></li>
+                    <li><a href="#">Python Training</a></li>
+                    <li><a href="#">App Development</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                </ul>
+            </li>
+            <li class="feedback"><a class="Feedback" href="/project 1/HTML/Feedback.html">Feedback</a></li>
+            <li class="Gallery"><a class="gallery" href="/project 1/HTML/gallary.html">Gallery</a></li>
+            <li class="Contact"><a class="contact" href="/project 1/HTML/contact.html">Contact</a></li>
+            <li class="enquiry"><a class="Enquiry" href="/project 1/HTML/enquiry.html">Enquiry</a></li>
+            <li class="search"><a class="Search" href="#">🔍</a></li>
+        </ul>
+    </div>
+
+    <!--kdsmxlsmx-->
+    <span style="font-size: 50px; font-weight: bold;text-align: center;margin-left: 600px;color: red;">...Our
+        Batches...</span>
+
+    <div class="gallery">
+        <img src="/project 1/gallary/1.jpg" class="slide active">
+        <img src="/project 1/gallary/2.jpg" class="slide">
+        <img src="/project 1/gallary/3.jpg" class="slide">
+        <img src="/project 1/gallary/4.jpg" class="slide">
+        <img src="/project 1/gallary/5.jpg" class="slide">
+        <img src="/project 1/gallary/3.jpg" class="slide">
+        <img src="/project 1/gallary/7.jpg" class="slide">
+        <img src="/project 1/gallary/8.jpg" class="slide">
+        <img src="/project 1/gallary/9.jpg" class="slide">
+        <img src="/project 1/gallary/1.jpg" class="slide">
+    </div>
+
+    <script>
+        let slides = document.querySelectorAll(".slide");
+        let index = 0;
+
+        function showSlide() {
+            slides.forEach(slide => slide.classList.remove("active"));
+            slides[index].classList.add("active");
+
+            index++;
+            if (index >= slides.length) {
+                index = 0;
+            }
+        }
+
+        setInterval(showSlide, 2000); // 2 seconds
+
+    </script>
+
+    <marquee behavior="scroll" direction="left" scrollamount="10" style="background-color: white;">
+        <img src="/project 1/gallary/1.jpg" height="120">
+        <img src="/project 1/gallary/2.jpg" height="120">
+        <img src="/project 1/gallary/3.jpg" height="120">
+        <img src="/project 1/gallary/4.jpg" height="120">
+        <img src="/project 1/gallary/5.jpg" height="120">
+        <img src="/project 1/gallary/6.jpg" height="120">
+        <img src="/project 1/gallary/7.jpg" height="120">
+        <img src="/project 1/gallary/8.jpg" height="120">
+        <img src="/project 1/gallary/9.jpg" height="120">
+        <img src="/project 1/gallary/10.jpg" height="120">
+    </marquee>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="about " style="   background: #0b2c4d; display: flex; text-align: center;">
+        <div class="main" style="margin-left: 120px; margin-top: 30px; ">
+            <span style="color: red;font-size: 50px;">Apple </span>
+            <span style="color: greenyellow; font-size: 50px;">Tree</span>
+            <span style="color: white;font-size: 50px;">Infotech</span>
+
+            <h6 style="color: white;margin-top: 22px;">Apple Tree Infotech Deal Also Website,<br>Software and Apps
+                Development </h6>
+
+        </div>
+        <div class="second" style="margin-left: 50px; margin-top: 30px;">
+            <h2 style="color: rgb(252, 252, 17); ">Get in Touch</h2>
+            <p style="color: white;">📞 Mob :7503962126</p>
+            <p style="color: white;">📩 hr@appletreeinfotech.in</p>
+            <p style="color: white;">🏐 C-60 R.K Tower 3rd Floor , Near hotel Krishna sagar ,RDC Rajnagar ,<br>
+                Ghaziabad . 201002</p>
+        </div>
+        <div class="third " style="margin-left: 150px;margin-top: 30px;">
+            <h2 style="color: yellow"> Attached Link</h2> <br>
+            <div class="an" style="margin-top: 20;transform: translateY(-20px);">
+                <a href="#" style="text-decoration: none; color: white;text-align: center;margin-top: 10px;">Teacher &
+                    Staff</a><br>
+                <a href="#" style="text-decoration: none;color: white;text-align: center;">Our Cource </a><br>
+                <a href="#" style="text-decoration: none;color: white;text-align: center;">Cource Categories</a><br>
+                <a href="#" style="text-decoration: none ;color: white;text-align: center;">Support</a><br>
+                <a href="# " style="text-decoration: none;color: white;text-align: center;">Terms & Conditions</a> <br>
+                <a href="#" style="text-decoration: none;text-align: center;color: white;">Privacy</a>
+                <br>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <div class="lasttag " style="display: flex;background-color: green;">
+        <h6 style="font-size: 15px; margin-left: 10px;font-weight: bold;margin-top: 6px;">Copyright @Apple Tree
+            Infotech 2025 All Right
+            Reserved Created
+            by Apple Tree
+            Infotech Developed by
+            :- <span style="font-weight: bold;color: black; font-size: 17;"> Devanshu Gautam </span></h6>
+        <h2 style="font-size: 20px;margin-left: 300px;font-weight: bold;">'Privacy Policy' Term & condition</h2>
+    </div>
+
+
+
+
+</body>
+
+</html>
